@@ -17,6 +17,9 @@
 		BD05DC6D286B5E7500918EF5 /* MyChoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05DC6C286B5E7500918EF5 /* MyChoiceTests.swift */; };
 		BD05DC77286B5E7500918EF5 /* MyChoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05DC76286B5E7500918EF5 /* MyChoiceUITests.swift */; };
 		BD05DC79286B5E7500918EF5 /* MyChoiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05DC78286B5E7500918EF5 /* MyChoiceUITestsLaunchTests.swift */; };
+		BD13DD1D286CC5CC0038BDEB /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD13DD1C286CC5CC0038BDEB /* NotesViewController.swift */; };
+		BD13DD1F286CC5DE0038BDEB /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD13DD1E286CC5DE0038BDEB /* EntryViewController.swift */; };
+		BD13DD21286CC5F50038BDEB /* JournalMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD13DD20286CC5F50038BDEB /* JournalMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		BD05DC72286B5E7500918EF5 /* MyChoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyChoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD05DC76286B5E7500918EF5 /* MyChoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChoiceUITests.swift; sourceTree = "<group>"; };
 		BD05DC78286B5E7500918EF5 /* MyChoiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChoiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD13DD1C286CC5CC0038BDEB /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		BD13DD1E286CC5DE0038BDEB /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		BD13DD20286CC5F50038BDEB /* JournalMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				BD05DC60286B5E7500918EF5 /* LaunchScreen.storyboard */,
 				BD05DC63286B5E7500918EF5 /* Info.plist */,
 				BD05DC5B286B5E7400918EF5 /* MyChoice.xcdatamodeld */,
+				BD13DD20286CC5F50038BDEB /* JournalMainViewController.swift */,
+				BD13DD1C286CC5CC0038BDEB /* NotesViewController.swift */,
+				BD13DD1E286CC5DE0038BDEB /* EntryViewController.swift */,
 			);
 			path = MyChoice;
 			sourceTree = "<group>";
@@ -262,9 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD05DC57286B5E7400918EF5 /* ViewController.swift in Sources */,
+				BD13DD1D286CC5CC0038BDEB /* NotesViewController.swift in Sources */,
+				BD13DD21286CC5F50038BDEB /* JournalMainViewController.swift in Sources */,
 				BD05DC53286B5E7400918EF5 /* AppDelegate.swift in Sources */,
 				BD05DC5D286B5E7400918EF5 /* MyChoice.xcdatamodeld in Sources */,
 				BD05DC55286B5E7400918EF5 /* SceneDelegate.swift in Sources */,
+				BD13DD1F286CC5DE0038BDEB /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
