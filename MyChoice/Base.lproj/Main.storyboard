@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="idr-3V-ktk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4Jg-Y8-ZTD">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="6BL-qZ-9Zu">
             <objects>
                 <viewController id="idr-3V-ktk" customClass="ViewController" customModule="MyChoice" customModuleProvider="target" sceneMemberID="viewController">
@@ -74,37 +74,34 @@
                                     <action selector="articleThreeButton:" destination="idr-3V-ktk" eventType="touchUpInside" id="m9F-eT-wp7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3X-0n-elM">
-                                <rect key="frame" x="20" y="800" width="85" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="journal"/>
-                                <connections>
-                                    <segue destination="c9k-gS-seK" kind="presentation" id="Q6I-vY-Bq4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNC-sX-pqf">
-                                <rect key="frame" x="267" y="816" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                                <connections>
-                                    <segue destination="4oY-UQ-7AS" kind="popoverPresentation" popoverAnchorView="xNC-sX-pqf" id="EiR-t6-B3N">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SlZ-WX-QON"/>
                         <color key="backgroundColor" red="0.92156862745098034" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="BEw-qh-I12"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4QE-aQ-x5R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="3Q8-XS-ivZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="782.60869565217399" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Resources-->
+        <scene sceneID="K7p-oN-i1b">
+            <objects>
+                <viewController title="Resources" id="pxj-ah-oxR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3qe-it-2rO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Nib-Mp-YAW"/>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Resources" image="book" catalog="system" id="rzP-40-Fet"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="woi-BM-Ocs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="867"/>
+        </scene>
+        <!--FAQs-->
         <scene sceneID="uE8-oK-TTh">
             <objects>
                 <viewController id="x6o-dJ-tjn" sceneMemberID="viewController">
@@ -179,6 +176,7 @@
                         <viewLayoutGuide key="safeArea" id="Utt-8l-bb4"/>
                         <color key="backgroundColor" red="0.92156862745098034" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="FAQs" image="questionmark" catalog="system" id="KW5-Bw-iqL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Akg-Qy-Rae" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -189,7 +187,7 @@
             <objects>
                 <viewController id="BA2-xK-jNU" customClass="JournalMainViewController" customModule="MyChoice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PZg-T8-s68">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Entries Yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knk-Hb-jZt">
@@ -203,6 +201,7 @@
                                 <rect key="frame" x="0.0" y="108" width="414" height="754"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="vkc-PT-6Ju" detailTextLabel="xPR-qk-WBE" style="IBUITableViewCellStyleSubtitle" id="hvG-Lt-hR6">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
@@ -227,13 +226,15 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mlq-70-aQy"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="NzM-Bk-0rA"/>
                     <navigationItem key="navigationItem" title="Journal" id="HFS-Z3-kbc">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="r7l-rG-e7T">
                             <connections>
@@ -273,7 +274,7 @@
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Den-UP-YSh"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -322,13 +323,35 @@
             </objects>
             <point key="canvasLocation" x="2890" y="-676"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="Co8-MQ-S0B">
+            <objects>
+                <tabBarController id="4Jg-Y8-ZTD" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HQ3-7p-Tfg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="idr-3V-ktk" kind="relationship" relationship="viewControllers" id="Aj9-gi-b3O"/>
+                        <segue destination="4oY-UQ-7AS" kind="relationship" relationship="viewControllers" id="fpT-Zu-xkx"/>
+                        <segue destination="c9k-gS-seK" kind="relationship" relationship="viewControllers" id="pC6-CM-sKy"/>
+                        <segue destination="pxj-ah-oxR" kind="relationship" relationship="viewControllers" id="0VQ-X6-MMv"/>
+                        <segue destination="x6o-dJ-tjn" kind="relationship" relationship="viewControllers" id="4Hb-zh-p5J"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rAx-fa-YGx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75" y="129"/>
+        </scene>
+        <!--Journal-->
         <scene sceneID="CIm-EW-sTV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c9k-gS-seK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Journal" image="square.and.pencil" catalog="system" id="byi-pS-9kF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="eTC-Pj-5IW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -340,12 +363,12 @@
             </objects>
             <point key="canvasLocation" x="855" y="-670"/>
         </scene>
-        <!--View Controller-->
+        <!--Abortion Finder-->
         <scene sceneID="5Fz-5K-qSE">
             <objects>
                 <viewController id="4oY-UQ-7AS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9qG-3e-qLK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZL-lg-OnO">
@@ -556,6 +579,7 @@
                         <viewLayoutGuide key="safeArea" id="3qf-ub-ilC"/>
                         <color key="backgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Abortion Finder" image="mappin" catalog="system" id="X45-oZ-GSt"/>
                     <navigationItem key="navigationItem" id="pAq-Om-gAz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kgk-JX-vOZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1134,13 +1158,18 @@
         <segue reference="a2q-8H-4x6"/>
         <segue reference="Kau-Hr-7nT"/>
         <segue reference="8ce-V6-wWa"/>
-        <segue reference="EiR-t6-B3N"/>
+        <segue reference="fpT-Zu-xkx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="MyChoice" width="630" height="170"/>
         <image name="Screen Shot 2022-06-28 at 2.57.27 PM" width="1118" height="1120"/>
         <image name="Screen Shot 2022-06-28 at 3.16.45 PM" width="1060" height="1062"/>
         <image name="Screen Shot 2022-06-28 at 3.26.56 PM" width="942" height="944"/>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="mappin" catalog="system" width="105" height="128"/>
+        <image name="questionmark" catalog="system" width="96" height="128"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
