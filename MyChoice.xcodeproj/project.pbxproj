@@ -20,6 +20,7 @@
 		BD13DD1D286CC5CC0038BDEB /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD13DD1C286CC5CC0038BDEB /* NotesViewController.swift */; };
 		BD13DD1F286CC5DE0038BDEB /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD13DD1E286CC5DE0038BDEB /* EntryViewController.swift */; };
 		BD13DD21286CC5F50038BDEB /* JournalMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD13DD20286CC5F50038BDEB /* JournalMainViewController.swift */; };
+		BD576A96286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A95286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BD13DD1C286CC5CC0038BDEB /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		BD13DD1E286CC5DE0038BDEB /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		BD13DD20286CC5F50038BDEB /* JournalMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalMainViewController.swift; sourceTree = "<group>"; };
+		BD576A95286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoustonAndSouthlakeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				BD13DD20286CC5F50038BDEB /* JournalMainViewController.swift */,
 				BD13DD1C286CC5CC0038BDEB /* NotesViewController.swift */,
 				BD13DD1E286CC5DE0038BDEB /* EntryViewController.swift */,
+				BD576A95286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift */,
 			);
 			path = MyChoice;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				BD13DD1D286CC5CC0038BDEB /* NotesViewController.swift in Sources */,
 				BD13DD21286CC5F50038BDEB /* JournalMainViewController.swift in Sources */,
 				BD05DC53286B5E7400918EF5 /* AppDelegate.swift in Sources */,
+				BD576A96286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift in Sources */,
 				BD05DC5D286B5E7400918EF5 /* MyChoice.xcdatamodeld in Sources */,
 				BD05DC55286B5E7400918EF5 /* SceneDelegate.swift in Sources */,
 				BD13DD1F286CC5DE0038BDEB /* EntryViewController.swift in Sources */,
