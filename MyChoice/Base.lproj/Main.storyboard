@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="30" width="297" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 3.16.45 PM" translatesAutoresizingMaskIntoConstraints="NO" id="QBz-Z5-Ebf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_5237" translatesAutoresizingMaskIntoConstraints="NO" id="QBz-Z5-Ebf">
                                 <rect key="frame" x="20" y="388" width="165" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -54,7 +54,7 @@
                                     <action selector="articleTwoButton:" destination="idr-3V-ktk" eventType="touchUpInside" id="DhO-xa-ayc"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 2.57.27 PM" translatesAutoresizingMaskIntoConstraints="NO" id="yLF-ZB-5cM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 3.04.17 PM" translatesAutoresizingMaskIntoConstraints="NO" id="yLF-ZB-5cM">
                                 <rect key="frame" x="20" y="184" width="165" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -1329,7 +1329,7 @@ How can I find out what the abortion laws are in my state?
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2000" id="N1g-HK-NFD"/>
                                             <constraint firstAttribute="height" constant="1500" id="N1w-Ku-Jgq"/>
@@ -1386,9 +1386,9 @@ How can I find out what the abortion laws are in my state?
                                 <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Days Until Midterms  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKl-0g-X86">
-                                <rect key="frame" x="61" y="329" width="295" height="38"/>
+                                <rect key="frame" x="61" y="327" width="295" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="31"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1431,7 +1431,7 @@ How can I find out what the abortion laws are in my state?
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aH1-QA-Dhv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mgl-ke-i5u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1508,6 +1508,126 @@ How can I find out what the abortion laws are in my state?
             </objects>
             <point key="canvasLocation" x="1780" y="1535"/>
         </scene>
+        <!--FAQs-->
+        <scene sceneID="Gtl-WU-6R4">
+            <objects>
+                <viewController id="KaX-NV-qho" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Txe-1a-WxM">
+                        <rect key="frame" x="0.0" y="0.0" width="419" height="2243"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uBv-vL-OF5">
+                                <rect key="frame" x="0.0" y="0.0" width="419" height="2243"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t1f-b7-1qf">
+                                        <rect key="frame" x="0.0" y="0.0" width="419" height="3755"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Donate or Collect Funds" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fq1-WV-heu">
+                                                <rect key="frame" x="76" y="30" width="262" height="87"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="27"/>
+                                                <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This organization provides financial and practical support for Indigenous abortion seekers throughout the United States." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7h-Ps-l6F">
+                                                <rect key="frame" x="27" y="190" width="350" height="136"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLg-ew-Oxf">
+                                                <rect key="frame" x="19" y="239" width="350" height="347"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The Brigid Alliance arranges and funds long-distance travel support for those seeking later abortion care (after the first trimester) throughout the United States.</string>
+                                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Indigenous Women Rising " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNh-Wm-m0U">
+                                                <rect key="frame" x="-13" y="117" width="410" height="154"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The National Network of Abortion Funds" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vyd-1h-MR8">
+                                                <rect key="frame" x="0.0" y="595" width="410" height="154"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brigid Alliance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFK-RI-sDG">
+                                                <rect key="frame" x="115" y="279" width="165" height="103"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Women's Reproductive Right's Assistance Project Wrap" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWv-Bj-sY6">
+                                                <rect key="frame" x="2" y="428" width="384" height="158"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DONATE OR RECIEVE AID" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVg-RQ-pHW">
+                                                <rect key="frame" x="44" y="140" width="317" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="They fund abortions and emergency contraceptives for people in all 50 states through direct clinic funding." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGv-a4-yVc">
+                                                <rect key="frame" x="27" y="401" width="350" height="347"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9im-hG-Wsw">
+                                                <rect key="frame" x="27" y="657" width="361" height="214"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The National Network of Abortion Funds is here to connect you with organizations that can support your financial and logistical needs as you arrange for your abortion.</string>
+                                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="jR3-U5-z4y"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2000" id="zhL-wd-WWe"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="t1f-b7-1qf" secondAttribute="trailing" id="cp2-BW-uTC"/>
+                                    <constraint firstItem="t1f-b7-1qf" firstAttribute="top" secondItem="uBv-vL-OF5" secondAttribute="top" id="d86-qE-W6t"/>
+                                    <constraint firstAttribute="bottom" secondItem="t1f-b7-1qf" secondAttribute="bottom" id="l3S-SQ-fM1"/>
+                                    <constraint firstItem="t1f-b7-1qf" firstAttribute="leading" secondItem="uBv-vL-OF5" secondAttribute="leading" id="o4n-i7-Pkp"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Cyw-v5-PPN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uBv-vL-OF5" secondAttribute="bottom" id="4Mv-Lb-5wz"/>
+                            <constraint firstItem="t1f-b7-1qf" firstAttribute="height" secondItem="Txe-1a-WxM" secondAttribute="height" multiplier="1.67411" id="IoL-eP-edQ"/>
+                            <constraint firstItem="uBv-vL-OF5" firstAttribute="leading" secondItem="Cyw-v5-PPN" secondAttribute="leading" id="OqN-lo-xzZ"/>
+                            <constraint firstItem="t1f-b7-1qf" firstAttribute="width" secondItem="Txe-1a-WxM" secondAttribute="width" id="Pl1-Vc-fkA"/>
+                            <constraint firstItem="uBv-vL-OF5" firstAttribute="trailing" secondItem="Cyw-v5-PPN" secondAttribute="trailing" id="Xng-ho-GZB"/>
+                            <constraint firstItem="uBv-vL-OF5" firstAttribute="top" secondItem="Txe-1a-WxM" secondAttribute="top" id="xuP-9r-mft"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="FAQs" image="questionmark" catalog="system" id="3oI-cQ-Yhf"/>
+                    <size key="freeformSize" width="419" height="2243"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fzi-fx-BJg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1778" y="1402"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="ZJF-Xa-9sk"/>
@@ -1518,9 +1638,9 @@ How can I find out what the abortion laws are in my state?
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Calendar" width="840" height="435"/>
+        <image name="IMG_5237" width="1060" height="1062"/>
         <image name="MyChoice" width="630" height="170"/>
-        <image name="Screen Shot 2022-06-28 at 2.57.27 PM" width="1118" height="1120"/>
-        <image name="Screen Shot 2022-06-28 at 3.16.45 PM" width="1060" height="1062"/>
+        <image name="Screen Shot 2022-06-28 at 3.04.17 PM" width="1118" height="1120"/>
         <image name="Screen Shot 2022-06-28 at 3.26.56 PM" width="942" height="944"/>
         <image name="Screen Shot 2022-06-30 at 2.56.27 PM" width="895" height="698"/>
         <image name="book" catalog="system" width="128" height="99"/>
