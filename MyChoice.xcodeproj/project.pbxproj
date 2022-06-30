@@ -25,6 +25,7 @@
 		BD576A9A286DEC88004ADE0C /* AustinAndElPasoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A99286DEC88004ADE0C /* AustinAndElPasoViewController.swift */; };
 		BD576A9C286DF565004ADE0C /* DallasAndWacoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A9B286DF565004ADE0C /* DallasAndWacoViewController.swift */; };
 		BD576A9E286DF936004ADE0C /* McKinneyAndOutOfStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A9D286DF936004ADE0C /* McKinneyAndOutOfStateViewController.swift */; };
+		BDE9F4B6286E4C29002F21F9 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE9F4B5286E4C29002F21F9 /* StoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		BD576A99286DEC88004ADE0C /* AustinAndElPasoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustinAndElPasoViewController.swift; sourceTree = "<group>"; };
 		BD576A9B286DF565004ADE0C /* DallasAndWacoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DallasAndWacoViewController.swift; sourceTree = "<group>"; };
 		BD576A9D286DF936004ADE0C /* McKinneyAndOutOfStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McKinneyAndOutOfStateViewController.swift; sourceTree = "<group>"; };
+		BDE9F4B5286E4C29002F21F9 /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				BD576A99286DEC88004ADE0C /* AustinAndElPasoViewController.swift */,
 				BD576A9B286DF565004ADE0C /* DallasAndWacoViewController.swift */,
 				BD576A9D286DF936004ADE0C /* McKinneyAndOutOfStateViewController.swift */,
+				BDE9F4B5286E4C29002F21F9 /* StoriesViewController.swift */,
 			);
 			path = MyChoice;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				BD576A9C286DF565004ADE0C /* DallasAndWacoViewController.swift in Sources */,
 				BD05DC5D286B5E7400918EF5 /* MyChoice.xcdatamodeld in Sources */,
 				BD05DC55286B5E7400918EF5 /* SceneDelegate.swift in Sources */,
+				BDE9F4B6286E4C29002F21F9 /* StoriesViewController.swift in Sources */,
 				BD576A9A286DEC88004ADE0C /* AustinAndElPasoViewController.swift in Sources */,
 				BD13DD1F286CC5DE0038BDEB /* EntryViewController.swift in Sources */,
 			);
