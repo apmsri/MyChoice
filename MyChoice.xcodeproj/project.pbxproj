@@ -22,6 +22,7 @@
 		BD13DD21286CC5F50038BDEB /* JournalMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD13DD20286CC5F50038BDEB /* JournalMainViewController.swift */; };
 		BD576A96286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A95286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift */; };
 		BD576A98286CF299004ADE0C /* SanAntonioAndMcAllenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A97286CF299004ADE0C /* SanAntonioAndMcAllenViewController.swift */; };
+		BD576A9A286DEC88004ADE0C /* AustinAndElPasoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A99286DEC88004ADE0C /* AustinAndElPasoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		BD13DD20286CC5F50038BDEB /* JournalMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalMainViewController.swift; sourceTree = "<group>"; };
 		BD576A95286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoustonAndSouthlakeViewController.swift; sourceTree = "<group>"; };
 		BD576A97286CF299004ADE0C /* SanAntonioAndMcAllenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanAntonioAndMcAllenViewController.swift; sourceTree = "<group>"; };
+		BD576A99286DEC88004ADE0C /* AustinAndElPasoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustinAndElPasoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				BD13DD1E286CC5DE0038BDEB /* EntryViewController.swift */,
 				BD576A95286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift */,
 				BD576A97286CF299004ADE0C /* SanAntonioAndMcAllenViewController.swift */,
+				BD576A99286DEC88004ADE0C /* AustinAndElPasoViewController.swift */,
 			);
 			path = MyChoice;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				BD576A98286CF299004ADE0C /* SanAntonioAndMcAllenViewController.swift in Sources */,
 				BD05DC5D286B5E7400918EF5 /* MyChoice.xcdatamodeld in Sources */,
 				BD05DC55286B5E7400918EF5 /* SceneDelegate.swift in Sources */,
+				BD576A9A286DEC88004ADE0C /* AustinAndElPasoViewController.swift in Sources */,
 				BD13DD1F286CC5DE0038BDEB /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
