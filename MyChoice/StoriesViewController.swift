@@ -17,6 +17,8 @@ class StoriesViewController: UIViewController {
     }
     
     
+    @IBAction func carol(_ sender: UIButton) {
+    }
     
     /*
     // MARK: - Navigation
