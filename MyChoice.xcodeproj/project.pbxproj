@@ -25,6 +25,8 @@
 		BD576A9A286DEC88004ADE0C /* AustinAndElPasoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A99286DEC88004ADE0C /* AustinAndElPasoViewController.swift */; };
 		BD576A9C286DF565004ADE0C /* DallasAndWacoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A9B286DF565004ADE0C /* DallasAndWacoViewController.swift */; };
 		BD576A9E286DF936004ADE0C /* McKinneyAndOutOfStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A9D286DF936004ADE0C /* McKinneyAndOutOfStateViewController.swift */; };
+		BD576AA0286F4B54004ADE0C /* faqsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576A9F286F4B54004ADE0C /* faqsViewController.swift */; };
+		BD576AA2286F4FCB004ADE0C /* AbortionFundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD576AA1286F4FCB004ADE0C /* AbortionFundsViewController.swift */; };
 		BDE9F4B6286E4C29002F21F9 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE9F4B5286E4C29002F21F9 /* StoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		BD576A99286DEC88004ADE0C /* AustinAndElPasoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustinAndElPasoViewController.swift; sourceTree = "<group>"; };
 		BD576A9B286DF565004ADE0C /* DallasAndWacoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DallasAndWacoViewController.swift; sourceTree = "<group>"; };
 		BD576A9D286DF936004ADE0C /* McKinneyAndOutOfStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McKinneyAndOutOfStateViewController.swift; sourceTree = "<group>"; };
+		BD576A9F286F4B54004ADE0C /* faqsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faqsViewController.swift; sourceTree = "<group>"; };
+		BD576AA1286F4FCB004ADE0C /* AbortionFundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbortionFundsViewController.swift; sourceTree = "<group>"; };
 		BDE9F4B5286E4C29002F21F9 /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +140,8 @@
 				BD576A9B286DF565004ADE0C /* DallasAndWacoViewController.swift */,
 				BD576A9D286DF936004ADE0C /* McKinneyAndOutOfStateViewController.swift */,
 				BDE9F4B5286E4C29002F21F9 /* StoriesViewController.swift */,
+				BD576A9F286F4B54004ADE0C /* faqsViewController.swift */,
+				BD576AA1286F4FCB004ADE0C /* AbortionFundsViewController.swift */,
 			);
 			path = MyChoice;
 			sourceTree = "<group>";
@@ -289,8 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD05DC57286B5E7400918EF5 /* ViewController.swift in Sources */,
+				BD576AA0286F4B54004ADE0C /* faqsViewController.swift in Sources */,
 				BD13DD1D286CC5CC0038BDEB /* NotesViewController.swift in Sources */,
 				BD13DD21286CC5F50038BDEB /* JournalMainViewController.swift in Sources */,
+				BD576AA2286F4FCB004ADE0C /* AbortionFundsViewController.swift in Sources */,
 				BD05DC53286B5E7400918EF5 /* AppDelegate.swift in Sources */,
 				BD576A96286CDF40004ADE0C /* HoustonAndSouthlakeViewController.swift in Sources */,
 				BD576A98286CF299004ADE0C /* SanAntonioAndMcAllenViewController.swift in Sources */,

@@ -1,37 +1,29 @@
 //
-//  StoriesViewController.swift
+//  faqsViewController.swift
 //  MyChoice
 //
-//  Created by Scholar on 6/30/22.
+//  Created by Scholar on 7/1/22.
 //
 
 import UIKit
 
-class StoriesViewController: UIViewController {
+class faqsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
     }
     
-    @IBAction func carol(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "https://youtu.be/i3iJ-qdxBpo")! as URL, options: [:], completionHandler: nil)
-    }
-    
-    
-    @IBAction func shawanna(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "https://www.youtube.com/watch?v=0yKhG9K55Tw")! as URL, options: [:], completionHandler: nil)
+
+    @IBAction func funds(_ sender: UIButton){
+        UIApplication.shared.open(URL(string: "https://abortionfunds.org")! as URL, options: [:], completionHandler: nil)
     }
     
     
-    
-    
-    
-   
-    
-    
+    @IBAction func laws(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.washingtonpost.com/politics/2022/06/24/abortion-state-laws-criminalization-roe/")! as URL, options: [:], completionHandler: nil)
+    }
     /*
     // MARK: - Navigation
 

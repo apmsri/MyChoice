@@ -28,7 +28,7 @@
                                 <rect key="frame" x="218" y="387" width="165" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wU0-3a-VtN">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wU0-3a-VtN">
                                 <rect key="frame" x="193" y="184" width="201" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -42,7 +42,7 @@
                                     <action selector="articleOneButton_URL:" destination="3Q8-XS-ivZ" eventType="touchUpInside" id="HeH-4z-zoT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czq-Rp-Be5">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czq-Rp-Be5">
                                 <rect key="frame" x="20" y="559" width="165" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -62,7 +62,7 @@
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDT-Qv-TmE">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDT-Qv-TmE">
                                 <rect key="frame" x="218" y="558" width="165" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -107,6 +107,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Take Political Action!">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="26"/>
+                                    <color key="baseBackgroundColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="dz1-2g-6dc" kind="show" id="5N3-fX-DvC"/>
@@ -119,9 +120,10 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Real Stories ">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="26"/>
+                                    <color key="baseBackgroundColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Iws-DW-LG3" kind="presentation" modalPresentationStyle="fullScreen" id="8PG-yi-PGY"/>
+                                    <segue destination="Tvo-5H-6cK" kind="show" id="95u-k8-cHY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stM-Uk-UEE">
@@ -131,9 +133,10 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Protest Change">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="26"/>
+                                    <color key="baseBackgroundColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="gW7-fK-Sv6" kind="presentation" modalPresentationStyle="fullScreen" id="X6i-2D-DNq"/>
+                                    <segue destination="7oB-9K-KiZ" kind="show" id="9nb-Db-gvB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsT-bD-Roo">
@@ -143,22 +146,22 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Donate/Collect Funds">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="26"/>
+                                    <color key="baseBackgroundColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="G4t-ov-49g" kind="presentation" modalPresentationStyle="fullScreen" id="YaD-dH-A6q"/>
+                                    <segue destination="G4t-ov-49g" kind="show" id="YaD-dH-A6q"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Nib-Mp-YAW"/>
                         <color key="backgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Resources" image="book" catalog="system" id="I7W-qM-NY5"/>
                     <navigationItem key="navigationItem" id="hyO-lP-RdP"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="woi-BM-Ocs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-601" y="844"/>
+            <point key="canvasLocation" x="-128.98550724637681" y="869.86607142857144"/>
         </scene>
         <!--Journal-->
         <scene sceneID="m41-Hh-Lqf">
@@ -176,7 +179,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="O4h-dY-w37">
-                                <rect key="frame" x="0.0" y="108" width="414" height="754"/>
+                                <rect key="frame" x="4" y="140" width="414" height="754"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="sectionIndexBackgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -316,7 +319,7 @@
                         <segue destination="ZCL-gv-38f" kind="relationship" relationship="viewControllers" id="fpT-Zu-xkx"/>
                         <segue destination="c9k-gS-seK" kind="relationship" relationship="viewControllers" id="pC6-CM-sKy"/>
                         <segue destination="010-mo-aNg" kind="relationship" relationship="viewControllers" id="j7T-Ll-Vwi"/>
-                        <segue destination="pxj-ah-oxR" kind="relationship" relationship="viewControllers" id="TPS-TL-Rx0"/>
+                        <segue destination="fUy-dy-3dz" kind="relationship" relationship="viewControllers" id="zio-9a-xGW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rAx-fa-YGx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -696,7 +699,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63g-hA-L8a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3584" y="870"/>
+            <point key="canvasLocation" x="6313.04347826087" y="869.86607142857144"/>
         </scene>
         <!--San Antonio And Mc Allen View Controller-->
         <scene sceneID="M8e-9w-kZs">
@@ -824,7 +827,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eNk-h2-dfQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4839" y="871"/>
+            <point key="canvasLocation" x="7568.115942028986" y="870.53571428571422"/>
         </scene>
         <!--Austin And El Paso View Controller-->
         <scene sceneID="e5a-oL-nIG">
@@ -953,7 +956,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bLn-np-pyn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4214" y="871"/>
+            <point key="canvasLocation" x="6943.4782608695659" y="870.53571428571422"/>
         </scene>
         <!--Dallas And Waco View Controller-->
         <scene sceneID="FHb-Yf-5kQ">
@@ -1088,7 +1091,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvD-ob-bAY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5462" y="871"/>
+            <point key="canvasLocation" x="8191.3043478260879" y="870.53571428571422"/>
         </scene>
         <!--Mc Kinney And Out Of State View Controller-->
         <scene sceneID="Hwe-xh-I6P">
@@ -1174,7 +1177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zEM-fL-HOR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6091" y="870"/>
+            <point key="canvasLocation" x="8820.289855072464" y="869.86607142857144"/>
         </scene>
         <!--Abortion Finder-->
         <scene sceneID="DDk-BE-LsV">
@@ -1199,7 +1202,7 @@
         <!--FAQs-->
         <scene sceneID="1Tx-cc-odN">
             <objects>
-                <viewController id="010-mo-aNg" sceneMemberID="viewController">
+                <viewController id="010-mo-aNg" customClass="faqsViewController" customModule="MyChoice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j4Q-oc-hgw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1208,7 +1211,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BYA-5n-KmU">
-                                        <rect key="frame" x="-8" y="-140" width="414" height="1500"/>
+                                        <rect key="frame" x="-8" y="-13" width="422" height="1373"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FAQs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvW-Mh-YVJ">
                                                 <rect key="frame" x="76" y="30" width="262" height="87"/>
@@ -1218,7 +1221,7 @@
                                                 <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARl-nu-Z1f">
-                                                <rect key="frame" x="30" y="759" width="355" height="347"/>
+                                                <rect key="frame" x="30" y="715" width="355" height="347"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">A. Following the overturn of Roe V. Wade, every state in the U.S allows abortions to be carried out up to the 24th week of the pregnancy. 
 </string>
@@ -1227,14 +1230,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A. If you’re worried about how to pay for an abortion, check out the page linked below to get access to abortion funds. " textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKv-nS-nyH">
-                                                <rect key="frame" x="32" y="1016" width="355" height="166"/>
+                                                <rect key="frame" x="32" y="982" width="355" height="166"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9YT-f5-NVZ">
-                                                <rect key="frame" x="32" y="1226" width="355" height="123"/>
+                                                <rect key="frame" x="30" y="1206" width="355" height="123"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">
 A. This state-by-state guide has the most up to date information about abortion laws. 
@@ -1245,21 +1248,21 @@ A. This state-by-state guide has the most up to date information about abortion 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Q. Does getting an abortion hurt?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLA-3Z-5KI">
-                                                <rect key="frame" x="30" y="558" width="360" height="55"/>
+                                                <rect key="frame" x="28" y="524" width="360" height="55"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Q. Where can I get help paying for an abortion?" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjT-2e-Z38">
-                                                <rect key="frame" x="32" y="963" width="352" height="116"/>
+                                                <rect key="frame" x="32" y="926" width="352" height="116"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmc-0N-hUr">
-                                                <rect key="frame" x="32" y="1171" width="357" height="116"/>
+                                                <rect key="frame" x="30" y="1145" width="357" height="116"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">
 Q. How can I find out what the abortion laws are in my state?
@@ -1268,26 +1271,20 @@ Q. How can I find out what the abortion laws are in my state?
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pb-jc-TTk">
-                                                <rect key="frame" x="136" y="1342" width="143" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="tintColor" red="0.0" green="0.0" blue="0.047058823530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Abortion Laws">
-                                                    <color key="baseBackgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSk-Xu-znl">
-                                                <rect key="frame" x="133" y="1156" width="143" height="31"/>
+                                                <rect key="frame" x="136" y="1132" width="143" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Abortion Funds">
                                                     <color key="baseBackgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="funds:" destination="010-mo-aNg" eventType="touchUpInside" id="B21-38-PrO"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJs-M1-JAe">
-                                                <rect key="frame" x="30" y="786" width="360" height="103"/>
+                                                <rect key="frame" x="30" y="759" width="360" height="103"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Q. How late into pregnancy can you get an abortion?
 </string>
@@ -1303,7 +1300,7 @@ Q. How can I find out what the abortion laws are in my state?
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2p-DF-jI7">
-                                                <rect key="frame" x="32" y="606" width="350" height="187"/>
+                                                <rect key="frame" x="32" y="564" width="350" height="187"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">A.  Abortion pills may result in heavy bleeding or cramps while surgical abortions typically provide general anesthetics during the process that will numb the pain, but cramping ad bleeding may follow up to 2 weeks after the pregnancy.</string>
                                                 <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
@@ -1311,30 +1308,35 @@ Q. How can I find out what the abortion laws are in my state?
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A.  According to ACOG, having an abortion with no complications will not affect your ability to get pregnant in the future." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLm-07-ndm">
-                                                <rect key="frame" x="32" y="450" width="360" height="136"/>
+                                                <rect key="frame" x="30" y="399" width="360" height="136"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FAQS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psA-lE-noK">
-                                                <rect key="frame" x="76" y="152" width="262" height="87"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="40"/>
-                                                <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools (4)" translatesAutoresizingMaskIntoConstraints="NO" id="9Si-zC-cjx">
-                                                <rect key="frame" x="68" y="240" width="269" height="168"/>
+                                                <rect key="frame" x="76" y="164" width="269" height="168"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Q. Will abortion affect my ability to have children?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ak8-Ec-uay">
-                                                <rect key="frame" x="32" y="388" width="360" height="103"/>
+                                                <rect key="frame" x="32" y="340" width="360" height="103"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pb-jc-TTk">
+                                                <rect key="frame" x="139" y="1325" width="143" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.047058823530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Abortion Laws">
+                                                    <color key="baseBackgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="laws:" destination="010-mo-aNg" eventType="touchUpInside" id="lbK-hL-olm"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -1368,14 +1370,14 @@ Q. How can I find out what the abortion laws are in my state?
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gGs-Xu-dc9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="151" y="843"/>
+            <point key="canvasLocation" x="2881.1594202898555" y="842.41071428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AlN-ii-PjP">
             <objects>
                 <viewController id="dz1-2g-6dc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dbd-iB-iei">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="130 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbl-5E-n2n">
@@ -1437,16 +1439,16 @@ Q. How can I find out what the abortion laws are in my state?
         <!--FAQs-->
         <scene sceneID="D4v-DE-Ugf">
             <objects>
-                <viewController id="G4t-ov-49g" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IMS-mN-51R">
+                <viewController id="G4t-ov-49g" customClass="AbortionFundsViewController" customModule="MyChoice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="IMS-mN-51R">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="938"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="epP-g3-qrT">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="epP-g3-qrT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="938"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I6v-VG-p2o">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1570.5"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I6v-VG-p2o">
+                                        <rect key="frame" x="0.0" y="-359" width="434" height="1937"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Donate or Collect Funds" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fq1-WV-heu">
                                                 <rect key="frame" x="69" y="22" width="262" height="87"/>
@@ -1512,15 +1514,8 @@ Q. How can I find out what the abortion laws are in my state?
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://abortionfunds.org/need-abortion/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYY-2k-snQ">
-                                                <rect key="frame" x="37" y="991" width="309" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PRESS THE LINK BELOW TO GET ACCESS TO ABORTION FUNDS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b69-3u-NHe">
-                                                <rect key="frame" x="2" y="911" width="410" height="72"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PRESS THE BUTTON BELOW TO GET ACCESS TO ABORTION FUNDS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b69-3u-NHe">
+                                                <rect key="frame" x="0.0" y="894" width="410" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="26"/>
                                                 <nil key="textColor"/>
@@ -1534,6 +1529,19 @@ Q. How can I find out what the abortion laws are in my state?
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNA-tu-ZJE">
+                                                <rect key="frame" x="146" y="974" width="110" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Click Here">
+                                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                                    <color key="baseBackgroundColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="access:" destination="G4t-ov-49g" eventType="touchUpInside" id="8UC-IA-E9y"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -1570,183 +1578,114 @@ Q. How can I find out what the abortion laws are in my state?
             </objects>
             <point key="canvasLocation" x="311.59420289855075" y="1744.4196428571429"/>
         </scene>
-        <!--FAQs-->
-        <scene sceneID="Kv6-dd-jdj">
+        <!--Stories View Controller-->
+        <scene sceneID="R1h-Yi-eQ3">
             <objects>
-                <viewController id="Iws-DW-LG3" customClass="StoriesViewController" customModule="MyChoice" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gkK-1O-bqm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="938"/>
+                <viewController id="Tvo-5H-6cK" customClass="StoriesViewController" customModule="MyChoice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Cl-oS-uDA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ekh-6i-Ngu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="938"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Tr-om-Hyz">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1570.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Carol’s Story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZO-aV-AWL">
-                                                <rect key="frame" x="8" y="139" width="384" height="45"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="29"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other's Stories" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nid-iB-Haa">
-                                                <rect key="frame" x="66" y="28" width="262" height="87"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="32"/>
-                                                <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-30 at 3.39.03 PM" translatesAutoresizingMaskIntoConstraints="NO" id="f8t-um-goR">
-                                                <rect key="frame" x="46" y="179" width="322" height="201"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8r-FK-au1">
-                                                <rect key="frame" x="46" y="380" width="322" height="39"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="tintColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="CLICK HERE TO WATCH VIDEO">
-                                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="carol:" destination="cn9-4k-Igc" eventType="touchUpInside" id="21o-5S-wsC"/>
-                                                    <action selector="carol:" destination="Iws-DW-LG3" eventType="touchUpInside" id="Gyn-id-HJI"/>
-                                                    <action selector="carolStory:" destination="cn9-4k-Igc" eventType="touchUpInside" id="zmH-kR-GYV"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shawanna's Story " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaX-yU-Ecf">
-                                                <rect key="frame" x="6" y="468" width="384" height="45"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="29"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-30 at 3.39.22 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Kg3-9M-mdc">
-                                                <rect key="frame" x="44" y="508" width="322" height="201"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lo-0C-2xm">
-                                                <rect key="frame" x="44" y="709" width="322" height="39"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="tintColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="CLICK HERE TO WATCH VIDEO">
-                                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="shawanna:" destination="Iws-DW-LG3" eventType="touchUpInside" id="Wke-Vp-RGB"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank you to Planned Parenthood for sharing these stories " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYy-nI-Ss8">
-                                                <rect key="frame" x="47" y="848" width="307" height="120"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="27"/>
-                                                <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Send your story to sukhmaniknijjar@gmail.com to be featured!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3D3-iS-vCI">
-                                                <rect key="frame" x="44" y="992" width="307" height="120"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="26"/>
-                                                <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="ccQ-NP-JfW"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2000" id="g23-nq-JRA"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="3Tr-om-Hyz" secondAttribute="trailing" id="4g4-v7-pal"/>
-                                    <constraint firstItem="3Tr-om-Hyz" firstAttribute="top" secondItem="Ekh-6i-Ngu" secondAttribute="top" id="EhF-m9-akN"/>
-                                    <constraint firstAttribute="bottom" secondItem="3Tr-om-Hyz" secondAttribute="bottom" id="nST-nK-GFp"/>
-                                    <constraint firstItem="3Tr-om-Hyz" firstAttribute="leading" secondItem="Ekh-6i-Ngu" secondAttribute="leading" id="xAD-Po-Twr"/>
-                                </constraints>
-                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shawanna's Story " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJM-4d-o9f">
+                                <rect key="frame" x="20" y="535" width="384" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-30 at 3.39.22 PM" translatesAutoresizingMaskIntoConstraints="NO" id="I35-uy-aQy">
+                                <rect key="frame" x="51" y="588" width="322" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Carol’s Story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZO-aV-AWL">
+                                <rect key="frame" x="10" y="193" width="384" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lo-0C-2xm">
+                                <rect key="frame" x="46" y="797" width="322" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="CLICK HERE TO WATCH VIDEO">
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="shawanna:" destination="Tvo-5H-6cK" eventType="touchUpInside" id="IGT-jW-xNI"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-30 at 3.39.03 PM" translatesAutoresizingMaskIntoConstraints="NO" id="f8t-um-goR">
+                                <rect key="frame" x="46" y="246" width="322" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8r-FK-au1">
+                                <rect key="frame" x="51" y="455" width="322" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="CLICK HERE TO WATCH VIDEO">
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="carol:" destination="Tvo-5H-6cK" eventType="touchUpInside" id="DsE-Pw-mLj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other's Stories" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzS-cB-uOx">
+                                <rect key="frame" x="76" y="88" width="262" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="32"/>
+                                <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="ES6-Xa-OCg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="3Tr-om-Hyz" firstAttribute="width" secondItem="gkK-1O-bqm" secondAttribute="width" id="1Cb-r6-Lsf"/>
-                            <constraint firstItem="Ekh-6i-Ngu" firstAttribute="leading" secondItem="ES6-Xa-OCg" secondAttribute="leading" id="1jk-Ze-tLl"/>
-                            <constraint firstItem="Ekh-6i-Ngu" firstAttribute="trailing" secondItem="ES6-Xa-OCg" secondAttribute="trailing" id="3oc-6B-cMm"/>
-                            <constraint firstItem="Ekh-6i-Ngu" firstAttribute="top" secondItem="gkK-1O-bqm" secondAttribute="top" id="4Sk-gd-Kv5"/>
-                            <constraint firstItem="3Tr-om-Hyz" firstAttribute="height" secondItem="gkK-1O-bqm" secondAttribute="height" multiplier="1.67411" id="Iij-9E-uqG"/>
-                            <constraint firstAttribute="bottom" secondItem="Ekh-6i-Ngu" secondAttribute="bottom" id="spw-is-CJw"/>
-                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e4D-oX-0ee"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="FAQs" image="questionmark" catalog="system" id="X91-LH-jH1"/>
-                    <navigationItem key="navigationItem" id="iV1-YC-e6E"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <size key="freeformSize" width="414" height="938"/>
+                    <navigationItem key="navigationItem" id="wLz-Jc-MU3"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QDm-kb-hnq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="cn9-4k-Igc" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AV1-Re-6Zy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1055.072463768116" y="1743.75"/>
+            <point key="canvasLocation" x="-329" y="1744"/>
         </scene>
-        <!--FAQs-->
-        <scene sceneID="iO3-sf-QOZ">
+        <!--View Controller-->
+        <scene sceneID="svc-RK-6dp">
             <objects>
-                <viewController id="gW7-fK-Sv6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lkJ-SV-0SO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="938"/>
+                <viewController id="7oB-9K-KiZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IYI-Z8-bNn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wq4-De-jSP">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="938"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7H-2i-87E">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1570.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoh-CB-n1t">
-                                                <rect key="frame" x="23" y="151" width="350" height="185"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">July 9th: Women’s March in D.C. (sign up on womensmarch.com)
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoh-CB-n1t">
+                                <rect key="frame" x="36" y="200" width="350" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">July 9th: Women’s March in D.C. (sign up on womensmarch.com)
 July 13: We Dissent rally in BRADENTON
 July 13th: Bans Off Our Bodies rally in FORT LAUDERDALE
 July 13: We Won’t Go Back in Fremont</string>
-                                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Can't find any near you? Organize your own!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXZ-Z0-taK">
-                                                <rect key="frame" x="3" y="295" width="384" height="158"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Protest Change" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpG-eJ-Mwo">
-                                                <rect key="frame" x="23" y="27" width="356" height="82"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="40"/>
-                                                <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UPCOMING PROTESTS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13E-3y-3bL">
-                                                <rect key="frame" x="56" y="136" width="279" height="27"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="23"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT TO BRING TO A PROTEST " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yp-EY-RPC">
-                                                <rect key="frame" x="19" y="428" width="377" height="25"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="21"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fkl-GS-5kE">
-                                                <rect key="frame" x="20" y="434" width="376" height="430"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">-Water
+                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UPCOMING PROTESTS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13E-3y-3bL">
+                                <rect key="frame" x="68" y="197" width="279" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Can't find any near you? Organize your own!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXZ-Z0-taK">
+                                <rect key="frame" x="10" y="342" width="384" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fkl-GS-5kE">
+                                <rect key="frame" x="23" y="488" width="376" height="430"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">-Water
 -A face mask 
 -Hand sanitizer
 -A power bank
@@ -1759,45 +1698,52 @@ July 13: We Won’t Go Back in Fremont</string>
 -A friend -- if you cannot bring someone, tell someone where you will be
 -A personalized sign/speaker 
 </string>
-                                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="2Uc-Xc-R1Y"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2000" id="FOl-Yp-E4h"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="y7H-2i-87E" secondAttribute="trailing" id="0g5-zL-xP0"/>
-                                    <constraint firstAttribute="bottom" secondItem="y7H-2i-87E" secondAttribute="bottom" id="SvY-yE-azU"/>
-                                    <constraint firstItem="y7H-2i-87E" firstAttribute="leading" secondItem="wq4-De-jSP" secondAttribute="leading" id="nMI-qW-dWV"/>
-                                    <constraint firstItem="y7H-2i-87E" firstAttribute="top" secondItem="wq4-De-jSP" secondAttribute="top" id="oH2-ll-KyK"/>
-                                </constraints>
-                            </scrollView>
+                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT TO BRING TO A PROTEST " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yp-EY-RPC">
+                                <rect key="frame" x="19" y="469" width="377" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Protest Change" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpG-eJ-Mwo">
+                                <rect key="frame" x="33" y="88" width="356" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="40"/>
+                                <color key="highlightedColor" red="0.60392156860000001" green="0.75294117650000003" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="1dW-8K-0yj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="wq4-De-jSP" firstAttribute="trailing" secondItem="1dW-8K-0yj" secondAttribute="trailing" id="9rq-YA-I9A"/>
-                            <constraint firstAttribute="bottom" secondItem="wq4-De-jSP" secondAttribute="bottom" id="eUi-qW-tZG"/>
-                            <constraint firstItem="wq4-De-jSP" firstAttribute="top" secondItem="lkJ-SV-0SO" secondAttribute="top" id="o3t-Gg-cCJ"/>
-                            <constraint firstItem="wq4-De-jSP" firstAttribute="leading" secondItem="1dW-8K-0yj" secondAttribute="leading" id="sRE-sQ-fAr"/>
-                            <constraint firstItem="y7H-2i-87E" firstAttribute="height" secondItem="lkJ-SV-0SO" secondAttribute="height" multiplier="1.67411" id="tIl-sV-QJJ"/>
-                            <constraint firstItem="y7H-2i-87E" firstAttribute="width" secondItem="lkJ-SV-0SO" secondAttribute="width" id="wuL-su-py0"/>
-                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bT0-v5-ubr"/>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="FAQs" image="questionmark" catalog="system" id="XFD-SL-Lni"/>
-                    <navigationItem key="navigationItem" id="HZc-TI-vJi"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <size key="freeformSize" width="414" height="938"/>
+                    <navigationItem key="navigationItem" id="gaf-c7-kLf"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mmq-3M-fXu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eOm-WZ-Fur" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-357.97101449275362" y="1743.75"/>
+            <point key="canvasLocation" x="-1039" y="1730"/>
+        </scene>
+        <!--Resources-->
+        <scene sceneID="XFK-Vr-aGP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fUy-dy-3dz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Resources" image="book" catalog="system" id="g1B-5V-AzF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ub4-6O-hT6">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pxj-ah-oxR" kind="relationship" relationship="rootViewController" id="C6K-1g-2J8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BTb-Jq-Cpe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1039.1304347826087" y="869.86607142857144"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
