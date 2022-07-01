@@ -18,8 +18,14 @@ class StoriesViewController: UIViewController {
     
     
     @IBAction func carol(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://youtu.be/i3iJ-qdxBpo")! as URL, options: [:], completionHandler: nil)
     }
     
+    
+    
+    @IBAction func shawanna(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.youtube.com/watch?v=0yKhG9K55Tw")! as URL, options: [:], completionHandler: nil)
+    }
     /*
     // MARK: - Navigation
 

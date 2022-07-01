@@ -152,6 +152,7 @@
                         <viewLayoutGuide key="safeArea" id="Nib-Mp-YAW"/>
                         <color key="backgroundColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Resources" image="book" catalog="system" id="I7W-qM-NY5"/>
                     <navigationItem key="navigationItem" id="hyO-lP-RdP"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -300,10 +301,10 @@
             </objects>
             <point key="canvasLocation" x="1435" y="-834"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Resources-->
         <scene sceneID="Co8-MQ-S0B">
             <objects>
-                <tabBarController id="4Jg-Y8-ZTD" sceneMemberID="viewController">
+                <tabBarController title="Resources" id="4Jg-Y8-ZTD" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HQ3-7p-Tfg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -314,8 +315,8 @@
                         <segue destination="idr-3V-ktk" kind="relationship" relationship="viewControllers" id="Aj9-gi-b3O"/>
                         <segue destination="ZCL-gv-38f" kind="relationship" relationship="viewControllers" id="fpT-Zu-xkx"/>
                         <segue destination="c9k-gS-seK" kind="relationship" relationship="viewControllers" id="pC6-CM-sKy"/>
-                        <segue destination="JQZ-LD-Z9F" kind="relationship" relationship="viewControllers" id="0VQ-X6-MMv"/>
                         <segue destination="010-mo-aNg" kind="relationship" relationship="viewControllers" id="j7T-Ll-Vwi"/>
+                        <segue destination="pxj-ah-oxR" kind="relationship" relationship="viewControllers" id="TPS-TL-Rx0"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rAx-fa-YGx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1374,7 +1375,7 @@ Q. How can I find out what the abortion laws are in my state?
             <objects>
                 <viewController id="dz1-2g-6dc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dbd-iB-iei">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="130 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbl-5E-n2n">
@@ -1604,6 +1605,7 @@ Q. How can I find out what the abortion laws are in my state?
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8r-FK-au1">
                                                 <rect key="frame" x="46" y="380" width="322" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="CLICK HERE TO WATCH VIDEO">
                                                     <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
@@ -1614,15 +1616,6 @@ Q. How can I find out what the abortion laws are in my state?
                                                     <action selector="carolStory:" destination="cn9-4k-Igc" eventType="touchUpInside" id="zmH-kR-GYV"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXm-xZ-hIZ">
-                                                <rect key="frame" x="66" y="427" width="302" height="84"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">https://youtu.be/i3iJ-qdxBpo
-</string>
-                                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shawanna's Story " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaX-yU-Ecf">
                                                 <rect key="frame" x="6" y="468" width="384" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1637,18 +1630,15 @@ Q. How can I find out what the abortion laws are in my state?
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lo-0C-2xm">
                                                 <rect key="frame" x="44" y="709" width="322" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.79607843140000001" green="0.42352941179999998" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="CLICK HERE TO WATCH VIDEO">
                                                     <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="shawanna:" destination="Iws-DW-LG3" eventType="touchUpInside" id="Wke-Vp-RGB"/>
+                                                </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.youtube.com/watch?v=0yKhG9K55Tw" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tm7-Lh-yZL">
-                                                <rect key="frame" x="64" y="704" width="342" height="136"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank you to Planned Parenthood for sharing these stories " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYy-nI-Ss8">
                                                 <rect key="frame" x="47" y="848" width="307" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1699,25 +1689,6 @@ Q. How can I find out what the abortion laws are in my state?
                 <exit id="cn9-4k-Igc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-1055.072463768116" y="1743.75"/>
-        </scene>
-        <!--Resources-->
-        <scene sceneID="hwn-U2-U4E">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JQZ-LD-Z9F" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Resources" image="book" catalog="system" id="9bX-9X-HNl"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EFw-Zu-uNi">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="pxj-ah-oxR" kind="relationship" relationship="rootViewController" id="pBb-Ao-6Wl"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UKA-98-Kda" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1365" y="845"/>
         </scene>
         <!--FAQs-->
         <scene sceneID="iO3-sf-QOZ">
